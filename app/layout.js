@@ -1,4 +1,4 @@
-// app/layout.js or app/layout.tsx
+
 import './globals.css'
 import { Poppins, Roboto_Mono } from 'next/font/google'
 
@@ -7,10 +7,9 @@ export const metadata = {
   description: 'Personal portfolio built with Next.js',
 };
 
-// Load fonts with weights
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '600', '700'],  // Choose what you need
+  weight: ['400', '600', '700'],
   variable: '--font-poppins',
 })
 

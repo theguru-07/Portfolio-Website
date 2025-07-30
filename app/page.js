@@ -48,16 +48,20 @@ export default function Home() {
       />
 
       <div className="gap-4 mb-8 text-center">
-      <a href="https://www.instagram.com/_encore____/" className="text-sky-400 text-bg-slate-900 px-0 py-0 ml-2 rounded transition justify-center">
-        Instagram.
+      <a href="https://www.instagram.com/_encore____/" className="text-sky-400 text-bg-slate-900 px-0 py-0 ml-2 rounded justify-center inline-block transform transition-transform duration-300 hover:scale-110">
+      <img src="/instagram.png" alt="Instagram" width={24} height={24} />
+        <span>Instagram.</span>
       </a>
-      <a href="https://www.linkedin.com/in/malhar-prasad-ray-063457302/" className="text-sky-400 text-bg-slate-900 px-0 py-0 ml-2 rounded transition justify-center">
-        LinkedIn.
+      <a href="https://www.linkedin.com/in/malhar-prasad-ray-063457302/" className="text-sky-400 text-bg-slate-900 px-0 py-0 ml-2 rounded justify-center inline-block transform transition-transform duration-300 hover:scale-110">
+        <span>LinkedIn.</span>
+        <img src="/linkedin.png" alt="LinkedIn" width={24} height={24}  />
       </a>
-      <a href="https://x.com/PrasadMalhar" className="text-sky-400 text-bg-slate-900 px-0 py-0 ml-2 rounded transition justify-center">
+      <a href="https://x.com/PrasadMalhar" className="text-sky-400 text-bg-slate-900 px-0 py-0 ml-2 rounded justify-center inline-block transform transition-transform duration-300 hover:scale-110">
         X.
+        <img src="/x.png" alt="X" width={24} height={24} />
       </a>
-      <a href="https://github.com/theguru-07" className="text-sky-400 text-bg-slate-900 px-0 py-0 ml-2 rounded transition  justify-center">
+      <a href="https://github.com/theguru-07" className="text-sky-400 text-bg-slate-900 px-0 py-0 ml-2 rounded justify-center inline-block transform transition-transform duration-300 hover:scale-110">
+        <img src="/github-logo.png" alt="GitHub" width={24} height={24} />
         GitHub.
       </a>
       </div>
