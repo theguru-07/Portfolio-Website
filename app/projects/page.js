@@ -6,7 +6,7 @@ export default function Projects() {
         <div className="bg-slate-900 border-1 p-6 rounded-xl shadow-md hover:shadow-slate-800 transition mb-6">
           <h2 className="text-2xl font-semibold mb-2">Personal Portfolio</h2>
           <p className="text-sky-400 mb-2">A personal portfolio website built with Next.js and Tailwind CSS.</p>
-          <a href="https://github.com/theguru-07/devconnect" target="_blank" className="text-white hover:underline">View on GitHub</a>
+          <a href="https://github.com/theguru-07/portfolio-website" target="_blank" className="text-white hover:underline">View on GitHub</a>
         </div>
 
          <div className="bg-slate-900 border-1 p-6 rounded-xl shadow-md hover:shadow-slate-800 transition mb-6">

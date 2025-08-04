@@ -10,27 +10,35 @@ export default function Home() {
         <title>Malhar Prasad Ray - Portfolio</title>
         <meta name="description" content="Portfolio of Malhar Prasad Ray" />
       </Head>
-      <main className="display-flex flex-col font-sans items-center justify-centers p-8 bg-slate-900">
-        <div className="flex items-center gap-4 mb-8 bg-slate-800">
+      <main className="display-flex flex-col font-sans items-center justify-centers p-8 text-white relative h-screen w-full overflow-hidden">
+        <video
+    autoPlay
+    loop
+    muted
+    className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
+  >
+    <source src="public/videos/background.mp4" type="video/mp4" />
+  </video>
+        <div className="flex items-center gap-4 mb-8">
 
       <h1 className="text-4xl text-white font-bold px-4 py-2">Malhar Prasad Ray</h1>
        <Link href="/projects">
-        <button className="bg-slate-900 text-sky-400 px-4 py-2 rounded hover:bg-slate-800 transition">
+        <button className=" text-sky-400 px-4 py-2 rounded hover:bg-slate-800 transition">
           Projects
         </button>
       </Link>
       <Link href="/about">
-        <button className="bg-slate-900 text-sky-400 px-4 py-2 rounded hover:bg-slate-800 transition">
+        <button className="text-sky-400 px-4 py-2 rounded hover:bg-slate-800 transition">
           About
         </button>
       </Link>
       <Link href="/skills">
-        <button className="bg-slate-900 text-sky-400 px-4 py-2 rounded hover:bg-slate-800 transition">
+        <button className=" text-sky-400 px-4 py-2 rounded hover:bg-slate-800 transition">
           Skills
         </button>
       </Link>
       <Link href="/resume">
-        <button className="bg-slate-900 text-sky-400 px-4 py-2 rounded hover:bg-slate-800 transition">
+        <button className=" text-sky-400 px-4 py-2 rounded hover:bg-slate-800 transition">
           Resume
         </button>
       </Link>
@@ -44,7 +52,7 @@ export default function Home() {
         alt="Malhar Prasad Ray"
         width={200}
         height={200}
-        className="display-flex rounded-full mx-auto mb-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:rotate-5"
+        className="display-flex mx-auto mb-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:rotate-5"
       />
 
       <div className="gap-4 mb-8 text-center">
@@ -60,7 +68,7 @@ export default function Home() {
         X.
         <img src="/x.png" alt="X" width={24} height={24} />
       </a>
-      <a href="https://github.com/theguru-07" className="text-sky-400 text-bg-slate-900 px-0 py-0 ml-2 rounded justify-center inline-block transform transition-transform duration-300 hover:scale-110">
+      <a href="https://github.com/theguru-07" className="text-sky-400 text-bg-slate-900 px-0 py-0 ml-2 rounded justify-center inline-block transform transition-transform duration-300 hover:scale-110 items-center gap-2">
         <img src="/github-logo.png" alt="GitHub" width={24} height={24} />
         GitHub.
       </a>
