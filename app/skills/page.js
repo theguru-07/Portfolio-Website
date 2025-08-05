@@ -1,6 +1,16 @@
 export default function skills() {
   return (
     <main className="p-8">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
+      >
+        <source src="videos/background.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <h1 className="text-3xl font-bold mb-4">Skills</h1>
       <p>Here are some of my skills.</p>
       {/* Add your skills here */}
