@@ -28,11 +28,13 @@ export default function About() {
 
       <h1 className="text-2xl font-bold mb-4">Education</h1>
       <ul className="list-disc list-inside">
-  <li>MCA from United School of Business Management.</li>
-  <li>Bachelor of Science in Physics from Utkal University.</li>
-  <li>Intermediate in Science from Chitroptola Higher Secondary School.</li>
-  <li>Matriculation From Nadiabarai Nodal High School.</li>
-</ul>
+        <p>
+        <li>MCA from United School of Business Management.</li>
+        <li>Bachelor of Science in Physics from Utkal University.</li>
+        <li>Intermediate in Science from Chitroptola Higher Secondary School.</li>
+        <li>Matriculation From Nadiabarai Nodal High School.</li>
+        </p>
+      </ul>
       <Image
               src="/cv.jpg"
               alt="Malhar Prasad Ray"
