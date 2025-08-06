@@ -22,7 +22,7 @@ export default function Home() {
       </video>
 
       {/* Profile Image */}
-      <Img
+      <Image
         src="/cv.jpg"
         alt="Profile"
         width={200}
