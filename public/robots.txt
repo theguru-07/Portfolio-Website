@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://theguru-07.vercel.app/sitemap.xml
