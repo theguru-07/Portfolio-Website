@@ -5,10 +5,11 @@ import { useState, useEffect } from 'react';
 const roles = [
   'MERN Stack Engineer',
   'Next.js Developer',
+  'Node.js Developer',
   'Full Stack Developer',
   'React Developer',
   'Cloudflare Workers Dev',
-  'AI Integration Builder',
+  'AI Integrator',
 ];
 
 export default function TypewriterText() {

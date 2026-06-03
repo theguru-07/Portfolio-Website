@@ -33,7 +33,7 @@ export default function Home() {
         transition={{ duration: 0.6 }}
       >
         <Image
-          src="/cv.jpg"
+          src="/profile.jpg"
           alt="Malhar Prasad Ray"
           width={200}
           height={200}
@@ -116,7 +116,7 @@ export default function Home() {
         <a href="https://github.com/theguru-07" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:scale-125 transition-transform">
           <img src="/github-logo.png" className="w-6 h-6" alt="GitHub" /> GitHub
         </a>
-        <a href="https://linkedin.com/in/theguru-07" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:scale-125 transition-transform">
+        <a href="https://www.linkedin.com/in/malhar-prasad-ray-063457302/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:scale-125 transition-transform">
           <img src="/linkedin.png" className="w-6 h-6" alt="LinkedIn" /> LinkedIn
         </a>
         <a href="https://www.instagram.com/_encore____/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:scale-125 transition-transform">

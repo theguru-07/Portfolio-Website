@@ -1,7 +1,7 @@
 import './globals.css';
 import { Poppins, Roboto_Mono } from 'next/font/google';
 import Navbar from '@/components/Navbar';
-import CustomCursor from '@/components/CustomCursor';
+import InkbrushCursor from '@/components/InkbrushCursor';
 import ScrollToTop from '@/components/ScrollToTop';
 import PageTransition from '@/components/PageTransition';
 import ThemeToggle from '@/components/ThemeToggle';
@@ -59,8 +59,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable} ${robotoMono.variable}`}>
       <body>
-        <CustomCursor />
         <Navbar />
+        <InkbrushCursor />
         <ThemeToggle />
         <PageTransition>
           {children}

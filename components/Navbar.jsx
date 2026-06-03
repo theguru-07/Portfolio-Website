@@ -43,7 +43,7 @@ export default function Navbar() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="text-xl font-extrabold text-sky-400 tracking-tight hover:text-sky-300 transition-colors">
-            theguru<span className="text-white">-07</span>
+            Malhar <span className="text-white">Prasad</span><span className="text-pink-400"> Ray</span>
           </Link>
 
           {/* Desktop links */}
