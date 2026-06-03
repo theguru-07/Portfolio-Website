@@ -5,6 +5,15 @@ import { motion } from 'framer-motion';
 // ✅ #3 — Real project data with tech tags and actual links
 const projects = [
   {
+    title: 'Personal Portfolio',
+    desc: 'Showcase of my work and skills as a developer. Built with Next.js and Tailwind CSS, featuring projects, timeline, and contact info.',
+    tags: ['Next.js', 'Tailwind', 'Framer Motion', 'Vercel'],
+    github: 'https://github.com/theguru-07',
+    live: 'https://portfolio-website-rho-nine-75.vercel.app/',
+    color: 'rose',
+    badge: 'Personal',
+  },
+  {
     title: 'DevPulse — AI PR Reviewer',
     desc: 'AI-powered GitHub PR code review assistant using Cloudflare Workers, D1, KV, and the Claude API. Webhook pipeline with structured review output.',
     tags: ['Cloudflare Workers', 'Claude API', 'Next.js', 'GitHub OAuth'],
@@ -18,34 +27,18 @@ const projects = [
     desc: 'Full-stack AI hiring platform with Next.js frontend, Cloudflare Workers/Hono backend, Google and GitHub OAuth, and D1 for session management.',
     tags: ['Next.js', 'Hono', 'Cloudflare D1', 'OAuth'],
     github: 'https://github.com/theguru-07',
-    live: '#',
+    live: 'https://hirepro.malharprasadray.workers.dev/',
     color: 'purple',
     badge: 'SaaS',
   },
-  {
-    title: 'Visitor Access Management',
-    desc: 'Production-ready QR-based SaaS platform targeting companies and coworking spaces. Built with Next.js 14, MongoDB, JWT, Twilio, and Cloudinary.',
-    tags: ['Next.js 14', 'MongoDB', 'Twilio', 'Cloudinary'],
-    github: 'https://github.com/theguru-07',
-    live: '#',
-    color: 'emerald',
-    badge: 'SaaS',
-  },
-  {
-    title: 'AI Love Companion',
-    desc: 'Chatbot app with a persistent persona "Aryan", memory-aware responses, and WhatsApp-style UI. Built with Next.js, MongoDB, and Anthropic API.',
-    tags: ['Next.js', 'MongoDB', 'Anthropic API', 'Tailwind'],
-    github: 'https://github.com/theguru-07',
-    live: '#',
-    color: 'rose',
-    badge: 'AI',
-  },
+  
+  
   {
     title: 'Rivaaz — E-Commerce Platform',
     desc: 'Full-stack MERN e-commerce site with product management, cart system, and payment integration.',
     tags: ['MongoDB', 'Express', 'React', 'Node.js'],
     github: 'https://github.com/theguru-07',
-    live: '#',
+    live: 'https://rivaaz.vercel.app/',
     color: 'amber',
     badge: 'MERN',
   },
@@ -54,7 +47,7 @@ const projects = [
     desc: 'Team-built hotel booking platform. Full academic project with search, booking flow, and admin panel.',
     tags: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
     github: 'https://github.com/theguru-07',
-    live: '#',
+    live: 'https://nestigo-hotel.vercel.app/',
     color: 'indigo',
     badge: 'Team',
   },

@@ -8,25 +8,25 @@ const timeline = [
   {
     year: '2025',
     title: 'Full Stack Developer (Freelance)',
-    desc: 'Building production-grade SaaS platforms — Visitor Access Management System, DevPulse AI code review, HireNova AI hiring assistant.',
+    desc: 'Building production-grade SaaS platforms — Visitor Access Management System, DevPulse AI code review, HirePRO AI hiring assistant.',
     color: 'sky',
   },
   {
-    year: '2024',
-    title: 'Software Developer Intern — Cluenuts Technology',
+    year: 'Nov 2025 - Apr 2026',
+    title: 'Member Of Technical Staff (Trainee) — Codemate AI',
     desc: 'Worked on real-world web applications using React and Node.js. Contributed to product features and UI improvements.',
     color: 'purple',
   },
   {
-    year: '2023–2025',
+    year: '2024–2026',
     title: 'MCA — Master of Computer Applications',
     desc: 'Completed post-graduation with focus on software engineering, databases, and full-stack development.',
     color: 'emerald',
   },
   {
     year: '2020–2023',
-    title: 'BCA — Bachelor of Computer Applications',
-    desc: 'Foundation in computer science, algorithms, and web technologies. Built first full-stack projects.',
+    title: 'B.sc - Physics',
+    desc: 'Developed strong analytical and problem-solving abilities through the study of physics and mathematics.\nGained experience in scientific research, data analysis, and experimental methodologies',
     color: 'rose',
   },
 ];
@@ -94,7 +94,7 @@ export default function About() {
           </p>
           <p>
             Beyond web dev, I explore <span className="text-emerald-400 font-semibold">AI integration</span> —
-            building tools like DevPulse (AI PR reviewer) and AI Love Companion using the Anthropic Claude API.
+            building tools like DevPulse (AI PR reviewer) and AI Hiring Assistant using the Anthropic Claude API.
           </p>
           <p>
             When I'm not coding, you'll find me exploring design trends, singing old classic songs,
