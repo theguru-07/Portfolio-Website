@@ -67,7 +67,7 @@ export default function About() {
           className="flex-shrink-0"
         >
           <Image
-            src="/cv.jpg"
+            src="/profile.jpg"
             alt="Malhar Prasad Ray"
             width={220}
             height={220}
