@@ -22,8 +22,8 @@ export async function POST(req) {
     const resend = new Resend(process.env.RESEND_API_KEY);
 
     await resend.emails.send({
-      from: 'Portfolio Contact <onboarding@resend.dev>',   // use your verified domain later
-      to: 'malharr.dev@gmail.com',                         // ← your email
+      from: 'Portfolio Contact <https://portfolio-website-rho-nine-75.vercel.app/>',   // use your verified domain later
+      to: 'malharprasadray@gmail.com',                         // ← your email
       subject: `Portfolio Contact from ${name}`,
       html: `
         <h2>New message from your portfolio</h2>
